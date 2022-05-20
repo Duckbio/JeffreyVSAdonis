@@ -1,0 +1,62 @@
+meter {
+    width: 1080px;
+    height: 30px;
+    border-radius: 5px;
+    background: #F95151;
+    margin-left: 200px;
+    -webkit-appearance: none;
+}
+
+meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background:#53F953;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+meter:-moz-meter-optimum::-moz-meter-bar {
+    background:#53F953;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs {
+    display: flex;
+    margin-left: 161px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+}
+
+.imgs > img {
+    margin-right: 178px;
+}
+
+#disciple {
+    width: auto;
+}
+
+.values {
+    display: flex;
+    margin-left: 203px;
+    color: white;
+    font-size: large;
+}
+
+#zero {
+    margin-right: 260px;
+}
+
+#twentyfive {
+    margin-right: 239px;
+}
+
+#fifty {
+    margin-right: 237px;
+}
+
+#seventyfive {
+    margin-right: 236px;
+}

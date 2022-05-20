@@ -1,0 +1,23 @@
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background: none;
+    border: none;
+    margin-top: 4px;
+}
+
+label {
+    margin-right: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+button > img {
+    width: 15px;
+    height: 15px;   
+    margin: 0px;
+    padding-top: 1px;
+}

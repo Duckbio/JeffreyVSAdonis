@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    width: 47px;
+    height: 47px;
+    margin: 0px 7px 0px 36px;
+}
+
+h1 {
+    color: #FFDC00;
+    font-weight: 700;
+}
+
+h3 {
+    margin: auto;
+    margin-right: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.jeffrey {
+    color: #FF7070;
+}
+
+.adonis {
+    color: #70FF70;
+}
+
+.vs {
+    font-size: 19px;
+}
