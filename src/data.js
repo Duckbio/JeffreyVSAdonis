@@ -16,7 +16,7 @@ export default [
     },
     {
         description: "Used social skills",
-        value: 5,
+        value: 70,
         positive: true
     },
     {

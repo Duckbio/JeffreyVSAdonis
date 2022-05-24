@@ -5,20 +5,20 @@ nav {
     font-family: 'Inter', sans-serif;
 }
 
-img {
+nav > img {
     width: 47px;
     height: 47px;
-    margin: 0px 7px 0px 36px;
+    margin: 0px 0.4vw 0px 2.3vw;
 }
 
-h1 {
+nav > h1 {
     color: #FFDC00;
     font-weight: 700;
 }
 
-h3 {
+nav > h3 {
     margin: auto;
-    margin-right: 40px;
+    margin-right: 2.6vw;
     color: white;
     font-weight: 700;
 }

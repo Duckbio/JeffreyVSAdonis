@@ -9,11 +9,13 @@ import qualitiesList from './qualitiesList';
 import generate from './generateASCII';
 import { getByAltText } from '@testing-library/react';
 import cookie from './cookies';
+import { useState } from 'react';
 
 function App() {
-  // cookie(score);
+  const [valueOfAdd, setValueOfAdd] = useState(0);
   const add = data.map(add => {
     return <Add 
+        setValueOfAdd={setValueOfAdd} //There's probably a much better way to do it but whatever LMAO
         description={add.description}
         value={add.value}
         key={add.description}
@@ -34,7 +36,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Bar />
+      <Bar valueOfAdd={valueOfAdd}/>
       <div className='all-buttons'>
         {add}
       </div>
@@ -42,7 +44,9 @@ function App() {
       <div className='all-qualities'>
         {qualities}
       </div>
+      <div className='parent-all-around-quality'>
       <p className='all-around-quality'><h3>Average quality</h3>{generate('⬛⬜', 10, final/10)}</p>
+      </div>
       <Footer />
     </div>
   );

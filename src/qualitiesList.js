@@ -13,22 +13,22 @@ export default [
     },
     {
         description: "Respectability and integrity",
-        value: 6
+        value: 7
     },
     {
         description: "Humility",
-        value: 5
+        value: 7
     },
     {
         description: "Sincerity",
-        value: 1
+        value: 2
     },
     {
         description: "Confidence",
-        value: 5
+        value: 6
     },
     {
         description: "Integrity to my own quality",
-        value: 4
+        value: 5
     },
 ]

@@ -1,11 +1,13 @@
 import React from "react";
 import '../Add.css';
 import plus from "../images/plus.png";
+var val = 0;
 
 function Add(props) {
-    var val = 0;
     function add() {
         val += props.value;
+        props.setValueOfAdd(val);
+        console.log(val);
     }
     return (
         <div className="buttons">
